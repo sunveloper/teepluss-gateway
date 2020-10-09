@@ -1,0 +1,34 @@
+{
+  "name": "sunveloper/teepluss-gateway",
+  "description": "Laravel gateway is payment gateway adapter.",
+  "keywords": [
+    "laravel",
+    "laravel",
+    "gateway",
+    "paypal"
+  ],
+  "homepage": "https://github.com/teepluss/laravel-gateway",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Teepluss",
+      "email": "teepluss@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "illuminate/support": "^5.0 || ^6.0 || ^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Teepluss\\Gateway\\": "src/"
+    },
+    "classmap": [
+      "src/migrations"
+    ]
+  },
+  "minimum-stability": "dev"
+}
